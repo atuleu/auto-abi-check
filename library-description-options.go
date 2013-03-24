@@ -7,7 +7,7 @@ import (
 
 type LibraryDescriptionOptions struct {
 	Name      string   `short:"n" long:"name" description:"Name of the library"`
-	Version   string   `short:"v" long "version" description:"Version of the library"`
+	Version   string   `short:"v" long:"version" description:"Version of the library"`
 	Includes  []string `short:"I" long:"include" description:"Path to append to the list of includes"`
 	Libdirs   []string `short:"L" description:"Path for finding libraries"`
 	Libs      []string `short:"l" description:"Library to add"`
