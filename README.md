@@ -1,4 +1,4 @@
-# easy-abi-check
+# auto-abi-check
 
 A go wrapper arround abi-compliance-checker to automate C/C++ ABI
 compliance check
@@ -15,13 +15,13 @@ me switch to go.
 
 Generate a config file using options
 ```bash
- $ easy-abi-check generate [OPTIONS] <dest_config>
+ $ auto-abi-check generate [OPTIONS] <dest_config>
 ```
 
 Run a check 
 
 ```bash
- $ easy-abi-check run --new [OPTIONS] --old [OPTIONS]
+ $ auto-abi-check run --new [OPTIONS] --old [OPTIONS]
 ```
 
 ### Options for configuration

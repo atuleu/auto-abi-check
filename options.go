@@ -9,7 +9,7 @@ type VersionCmd struct {
 }
 
 func (c *VersionCmd) Execute(args []string) error {
-	fmt.Println("easy-abi-check version ", version_string)
+	fmt.Println("auto-abi-check version ", version_string)
 	return nil
 }
 
